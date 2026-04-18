@@ -1,0 +1,216 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "38576402-cae1-40ad-81b9-7d74b6f57b99",
+  "location" : "warehouse/db/healthcare_table",
+  "last-updated-ms" : 1776500594110,
+  "last-column-id" : 15,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "Age",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "Gender",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Blood Type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "Medical Condition",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Date of Admission",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 7,
+      "name" : "Doctor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "Hospital",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "Insurance Provider",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "Billing Amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 11,
+      "name" : "Room Number",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 12,
+      "name" : "Admission Type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Discharge Date",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 14,
+      "name" : "Medication",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "Test Results",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "Age",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "Gender",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Blood Type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "Medical Condition",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Date of Admission",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 7,
+      "name" : "Doctor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "Hospital",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "Insurance Provider",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "Billing Amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 11,
+      "name" : "Room Number",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 12,
+      "name" : "Admission Type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Discharge Date",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 14,
+      "name" : "Medication",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "Test Results",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "PC-1802"
+  },
+  "current-snapshot-id" : 7850876451297253935,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 7850876451297253935,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 7850876451297253935,
+    "timestamp-ms" : 1776500594110,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1776500587737",
+      "added-data-files" : "3",
+      "added-records" : "55500",
+      "added-files-size" : "2084479",
+      "changed-partition-count" : "1",
+      "total-records" : "55500",
+      "total-files-size" : "2084479",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "warehouse/db/healthcare_table/metadata/snap-7850876451297253935-1-2eb70c2b-3f93-48d5-894c-432c2641ba6f.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1776500594110,
+    "snapshot-id" : 7850876451297253935
+  } ],
+  "metadata-log" : [ ]
+}
