@@ -11,17 +11,17 @@
 | `warehouse/` | ผลลัพธ์ Iceberg (Set 2) |
 | `result_image/` | เก็บรูปภาพประกอบ |
 
----
-
-## 🛠️ ผลการรัน
+## ผลการรัน
 
 ### ชุดที่ 1: Parquet (Immutable File Format)
 ใช้ PySpark อ่านข้อมูลดิบ กรองข้อมูล (Bobby JacksOn) และบันทึกเป็น Parquet ไฟล์
-
----
 
 ### ชุดที่ 2: Apache Iceberg (Table Format with Time Travel)
 ใช้ PySpark และ Iceberg Catalog ในการสร้างตารางและใช้คำสั่ง `DELETE` (ACID Transaction)
 
 #### Result Screenshot:
 ![Iceberg Result Set 2](result_image/screenshot-set2-result.png)
+
+---
+
+ปริยากร จารุมิศร์ รหัสนิสิต 66102010174
